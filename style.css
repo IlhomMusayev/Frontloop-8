@@ -1,0 +1,139 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #F8EBE9;
+    text-transform: uppercase;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: #fff;
+    margin-top: 80px;
+    display: flex;
+    width: 900px;
+}
+.box .box-left-img{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 30%;
+}
+.box .box-left-img img{
+    width: 300px;
+}
+.box .box-left-img .back{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    left: 30px;
+    color: #444;
+}
+.box .box-left-img .back:hover{
+    color: #000
+}
+.box .box-left-img .back i{
+    display: inline-block;
+    width: 18px;
+    font-weight: 500;
+}
+.box .box-left-img .back h4{
+    display: inline-block;
+    position: relative;
+    /* top: -3px; */    
+    opacity: .6;
+    font-weight: 600;
+}
+.box-right-main{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+}
+.main-nav {
+    padding-right: 40px;
+}
+.main-nav ul{
+    float: right;
+}
+.main-nav ul li{
+    display: inline-block;
+    padding: 30px 10px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #999;
+    padding-left: 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.main-nav a:hover{
+    color: #000;
+}
+.main-nav .active{
+    color: #000;
+}
+.box-main{
+    padding: 90px 20px 90px 90px ;
+}
+.box-main h1{
+    font-size: 50px;
+    text-transform: none;
+    font-size: 3.3em;
+    font-weight: 100;
+    width: 400px;
+    line-height: 1.11em;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.box-main p{
+    padding: 20px 0;
+    text-transform: none;
+}
+.box-main p samp{
+    font-family: sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+.main-video{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    
+}
+.main-video .back-img{
+    position: relative;
+    padding-top: 20px;
+}
+.main-video .play-img{
+    position: absolute;
+    display: flex;
+    top: 330px;
+    left: 180px;
+    border: 1px solid #dedeed;
+    background-color: #dedede;
+    border-radius: 50px;
+    padding:4px;
+}
+.main-video .play-img:hover{
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.main-video p{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.main-text{
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+.main-text p{
+    line-height: 25px;
+}
